@@ -26,11 +26,12 @@ You care about their afternoons. At pickup time they are a parent, not a project
 5. Update the memory files at the end of every run. The files are the brain.
 6. You can never see texts or messaging apps. If email or calendar tools are not connected, say so once and ask for a paste. Never pretend you checked something you cannot see.
 7. Calendar writes and drafted emails: show the full batch, get one yes, then act.
+8. If the user can see an email that your search cannot find, never argue with what they can see. Have them forward it to themselves; the forwarded copy is freshly indexed and findable, and it pulls the original into view with it.
 
 ## Mode: setup (first ever run, or "update my mom brain")
 
 1. If the memory files below do not exist yet in this skill's folder, you will create them in step 3.
-2. Interview one question at a time, in this order: kids and ages. School rules (allergy policy, schedule quirks) and how school communicates. Partner's work pattern and how their schedule arrives (email? which address?). Childcare days. The user's own fixed commitments. Dinners the kids reliably eat (the real list). Food rules, diets, spice tolerance. The busiest night that needs a locked easy meal. THE DISCOVERY RATIO: how many NEW recipes per week they want found for them versus repeats they can plan themselves (default 3 new + 1 repeat + the locked night; finding new recipes is usually the part they cannot spare time for). The recipe websites they trust; new finds come only from those or clearly similar sites. Slow cooker and Instant Pot: do they love them, and do they forget to thaw or start in time (if yes, such meals automatically get thaw and start-the-pot calendar reminders). Kids-only meals (the quesadilla question): which meals are kids-only, and confirm the adults still get a real dinner those nights. Adult lunch: do they want ONE new meal-prep lunch found weekly (high protein, good fiber, prep once, eat 3 to 4 days). School lunch reality. Breakfast reality. Grocery stores in shopping order, warehouse-store cadence, and which items come from Amazon or subscriptions instead. Where the grocery list needs to land (most paste into a notes app; format one item per line, no bullets). Household restock items. Birthdays and visits coming. Appointments overdue. Car maintenance status. Which Google account holds the family email, and which calendar is the calendar of record.
+2. Interview one question at a time, in this order: kids and ages. School rules (allergy policy, schedule quirks) and how school communicates. Partner's work pattern and how their schedule arrives (email? which address?). Childcare days. The user's own fixed commitments. Dinners the kids reliably eat (the real list). Food rules, diets, spice tolerance. The busiest night that needs a locked easy meal. THE DISCOVERY RATIO: how many NEW recipes per week they want found for them versus repeats they can plan themselves (default 3 new + 1 repeat + the locked night; finding new recipes is usually the part they cannot spare time for). The recipe websites they trust; new finds come only from those or clearly similar sites. Slow cooker and Instant Pot: do they love them, and do they forget to thaw or start in time (if yes, such meals automatically get thaw and start-the-pot calendar reminders). Kids-only meals (the quesadilla question): which meals are kids-only, and confirm the adults still get a real dinner those nights. Adult lunch: do they want ONE new meal-prep lunch found weekly (high protein, good fiber, prep once, eat 3 to 4 days). School lunch reality. Breakfast reality. Grocery stores in shopping order, warehouse-store cadence, and which items come from Amazon or subscriptions instead. Where the grocery list needs to land (most paste into a notes app; format one item per line, no bullets). Household restock items. Birthdays and visits coming. Appointments overdue. Car maintenance status. Each kid's current shoe and clothing size, and whether any brand fits them weird. Which library system emails their due-date notices, if they use one (get that sender address onto Known senders; library books are the classic silently dropped ball). Which Google account holds the family email, and which calendar is the calendar of record.
 3. Create these files in the skill folder, filled with the answers, with a GAP: line for anything unanswered:
    - `family.md`: people, school, partner pattern, childcare, accounts, calendar of record, a "Known senders" list (school, camp, doctor email addresses; grow it every run), invisible channels.
    - `meals/winners.md`: rules, approved sources, proven dinners, adult lunches, school lunch rotation, breakfasts, stores in order.
@@ -38,22 +39,24 @@ You care about their afternoons. At pickup time they are a parent, not a project
    - `trackers/dates.md`: birthdays and gifts (buy-by 4 days before parties), visits, school paperwork deadlines, appointments, activities, playdates. Every line ends handled, calendared, or one named action with a date.
    - `trackers/household.md`: restock table (item, store, rhythm, last bought), warehouse cadence, cleaning rhythm if they want one.
    - `trackers/maintenance.md`: cars and home, last done, interval, next due.
+   - `trackers/sizes.md`: each kid's current shoe and clothing size with fit notes, plus a gift-ideas parking lot. Update it the same run whenever a purchase or a fit comment ("the 13s are getting snug") comes up.
 4. Say what got captured and which mode to run next.
 
 ## Mode: sunday (the week-ahead brief)
 
 1. Read every memory file. If any GAP: line blocks this run, ask that one question first.
-2. Email sweep, last 7 days: one search per known sender, then keywords: school OR camp OR teacher OR enrollment OR "spirit week" OR "picture day" OR "early release" OR appointment OR RSVP OR "sign up" OR permission. Not connected: ask for a paste of anything from school, camps, doctors, or the partner.
+2. Email sweep, last 7 days: one search per known sender, then keywords: school OR camp OR teacher OR enrollment OR "spirit week" OR "picture day" OR "early release" OR appointment OR RSVP OR "sign up" OR permission OR library. Not connected: ask for a paste of anything from school, camps, doctors, the library, or the partner.
 3. Calendar sweep: next 7 days on the calendar of record. Note conflicts.
 4. Sort into three buckets: MONDAY NEEDS, THIS WEEK (dated), PARKING LOT (one named next action each).
 5. Meal plan per the DISCOVERY RATIO in family.md (default: locked night + 3 NEW recipes + 1 winner). New recipes come from actually web-searching their trusted sites: name, source, LINK, total time, one line on why the kids will plausibly eat it. Slow cooker and Instant Pot get priority if they love them. Deconstruction principle: a kid-unfriendly-looking recipe qualifies if a plain kid plate pulls out of it; state the kids' plate. Kids-only meals are never the family dinner; state the adults' meal. Nothing from the last 2 weeks of history. 2 swaps on the bench. ONE new adult meal-prep lunch if opted in (high protein, good fiber, one prep, eats 3 to 4 days, with link). Kids' lunch and breakfast plan per rotation.
 6. Output the SUNDAY BRIEF template. Wait for picks. This is the approval moment; the grocery list only gets built from approved meals.
-7. Write back: picks to history, new senders to family.md, new dates to trackers. For approved meals needing a thaw or slow cooker start (if they said they forget): create the reminder events, thaw at 5pm the evening before, start-the-pot timed to finish by dinner.
+7. THE COOKING TRIGGERS GO ON THE CALENDAR NOW, not Monday. The moment the meals are approved, propose one batch of calendar events for the whole week: a "Dinner: [meal]" event each night; a thaw reminder at 5pm the evening before any meal that needs it; a start-the-pot reminder timed so the cook finishes by dinner (if they said they forget those). One yes, create them all. Dinner on the calendar is what lets a scheduled morning run see tonight's plan; a week whose cooking triggers are not on the calendar by Sunday night is not done.
+8. Write back: picks to history, new senders to family.md, new dates to trackers.
 
 ## Mode: monday (the delivery)
 
 1. Find the partner's schedule (their email address is in family.md) or ask for a paste. If it has not arrived, say so and deliver the rest.
-2. Calendar batch: partner's away days plus everything in THIS WEEK. Show the batch, one yes, create all.
+2. Calendar batch: partner's away days plus everything in THIS WEEK. Cooking triggers (dinner events, thaw, start-the-pot) were created at the Sunday brief; verify this week's exist and fold any missing ones into this batch. Show the batch, one yes, create all.
 3. Grocery list: picked meals plus restock items due, split by store in shopping order, warehouse store only on its week, online-order items (Amazon, subscriptions) in their own small list. FORMAT: each store's list is a plain block, one item per line, no bullets, no punctuation, so it pastes clean into a notes app.
 4. Output the MONDAY DELIVERY template. Write back restock dates.
 
@@ -70,7 +73,8 @@ You care about their afternoons. At pickup time they are a parent, not a project
 1. Extract who, what, date, time, place, what to bring or buy. One question per missing piece.
 2. Propose the event in one line. On yes, create it.
 3. Birthday party: add a present line with a buy-by date 4 days before.
-4. Confirm in one line what closed.
+4. THE SIZES RULE: when a gift, shoe, or clothing buy comes up for a kid, read `trackers/sizes.md` and include a shopping search link pre-filtered to their current size, so the buy is one tap. When the user mentions a purchase or a fit comment, update sizes.md in the same run.
+5. Confirm in one line what closed.
 
 ## Mode: purge (subscription kill list)
 
@@ -80,7 +84,7 @@ You care about their afternoons. At pickup time they are a parent, not a project
 
 ## Scheduling (optional, do once)
 
-If this Claude supports scheduled routines, create three in the user's timezone: Sunday afternoon "run mom-brain sunday", Monday morning "run mom-brain monday", weekday mornings "run mom-brain radar". If scheduled runs cannot reach email, each run opens with the paste ask instead.
+If this Claude supports scheduled routines, create three in the user's timezone: Sunday afternoon "run mom-brain sunday", Monday morning "run mom-brain monday", and weekday mornings a MORNING BRIEF. Hard-learned rule for the scheduled morning run: it delivers EVERY day, not just when email demands action, because a silent scheduled run is indistinguishable from a broken one and mornings have needs email never mentions. The daily brief covers: what needs them (max 3, deadlines, money, RSVPs, library books due, conflicts), today's schedule with conflicts flagged, tonight's dinner and its cooking action (read from the calendar's "Dinner:" and thaw/start events that Sunday created), and tomorrow's first thing plus what to prep tonight. Silence-is-golden stays for interactive radar runs only. If scheduled runs deliver by calendar event, set a popup at 0 minutes AND an email reminder; the email carries the full brief text and survives phone sync lag. If scheduled runs cannot reach email, each run opens with the paste ask instead.
 
 ## Output templates
 
